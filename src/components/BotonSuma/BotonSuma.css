@@ -1,0 +1,17 @@
+.botonSuma {
+  padding: 10px 20px;
+  background-color: #8bf3a5;
+  color: rgb(78, 78, 78);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.botonSuma-activo{
+    background-color: rgb(197, 134, 255);
+    box-shadow: 0 0 10px rgb(197, 134, 255);
+}
+
+button:focus, button:focus-visible {
+    outline: none;
+}
